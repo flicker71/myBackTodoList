@@ -1,0 +1,27 @@
+Pour lancer le front de ma todoList : yarn run dev
+(lien pour le front : https://github.com/flicker71/ToDoList---Copie)
+Pour lancer le back de ma todoList : npm run dev 
+(lien pour le back : https://github.com/flicker71/ToDoList---Copie)
+
+Pour la bdd, j'ai utilisé Prisma comme ORM 
+Commande prisma utile : 
+- npm install prisma --save-dev
+- npx prisma
+- npx prisma init
+- npx prisma db pull
+
+install et generate prisma client : https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases/install-prisma-client-typescript-postgres
+- npm install @prisma/client
+- npx prisma generate
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ma todoList n'est pas complète, il manque l'edit d'une todo que je n'ai pas pu tester à cause d'un problème de rendering qui close ma modal :. 
+Je pense que l'edit fonctionne mais aucun test réalisé...
+
+Aucun filtre n'est disponible
+
+Ma bdd est en local avec phpmyadmin, normalement avec prisma tu peux la récupérer (si je ne suis pas un boulet) avec les Commandes :
+- npx prisma db pull
+- npx prisma generate
+
