@@ -1,7 +1,7 @@
 Pour lancer le front de ma todoList : yarn run dev
 (lien pour le front : https://github.com/flicker71/ToDoList---Copie)
 Pour lancer le back de ma todoList : npm run dev 
-(lien pour le back : https://github.com/flicker71/ToDoList---Copie)
+(lien pour le back : https://github.com/flicker71/myBackTodoList)
 
 Pour la bdd, j'ai utilisé Prisma comme ORM 
 Commande prisma utile : 
